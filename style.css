@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+   background-image: url(./convert-text-to-audio.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   }
+
+   .container{
+    height:450px;
+    width: 450px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px 30px;
+   }
+
+   .heading{
+    text-align: center;
+    font-size: 30px;
+   }
+   .box{
+    display: flex;
+    flex-direction: column;
+      margin: 30px 0;
+   }
+   .box textarea{
+      height: 100px;
+      resize: none;
+      padding: 8px 10px;
+      outline: none;
+      font-size: 18px;
+      border-radius: 8px;
+      width: 100%;
+      margin-top: 5px;
+   }
+
+   .box ::-webkit-scrollbar{
+    display: none;
+   }
+
+   #voicelist,#speak{
+
+    height:42px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin: 5px;
+   }
+
+   #speak{
+
+    background-color: rgba(0, 0, 255, 0.712);
+    color: beige;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+   }
+   #speak:hover{
+    background-color: blue;
+   }
